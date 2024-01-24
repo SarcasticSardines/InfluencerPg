@@ -1676,6 +1676,26 @@ input:checked + .toggle-bg {
   border-top: 2px solid black;
 }
 
+.heroLogo{
+  position: absolute;
+  margin: auto;
+  top: 100px;
+  right: 50%;
+}
+
+.readable{
+  background-color: rgb(0, 0, 0, 0.4);
+  padding: 25px;
+  border: 1px solid rgb(0, 0, 0, 0.4);
+  border-radius: 11px;
+}
+
+@media screen and (max-width: 786px){
+  .heroLogo{
+    right: 15%;
+  }
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));

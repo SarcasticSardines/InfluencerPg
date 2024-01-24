@@ -1680,7 +1680,7 @@ input:checked + .toggle-bg {
   position: absolute;
   margin: auto;
   top: 100px;
-  right: 50%;
+  right: 42%;
 }
 
 .readable{
@@ -1688,6 +1688,14 @@ input:checked + .toggle-bg {
   padding: 25px;
   border: 1px solid rgb(0, 0, 0, 0.4);
   border-radius: 11px;
+}
+
+.heroImg{
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 30%;
+     object-position: 0px 30%;
 }
 
 @media screen and (max-width: 786px){
